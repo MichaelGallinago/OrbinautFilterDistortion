@@ -70,7 +70,7 @@ void Pgl_main()
 			OutPos.x += WaveOffset(g_WaveData2, g_DataParams2, g_WaveY2);
 		}
 	}
-    	gl_FragColor = v_vColour * gltexture2D(gm_BaseTexture, OutPos);
+    gl_FragColor = v_vColour * gltexture2D(gm_BaseTexture, OutPos);
 }
 
 VS_OUTPUT Vmain(VS_INPUT input)
